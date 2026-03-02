@@ -24,6 +24,12 @@ This project demonstrates the use of **HTML templates, CSS styling, and Flask ro
 
 ## 📂 Project Structure
 
+**install dependencies**:
+----> pip install -r requirements.txt
+**Run the flask app**:
+-----> python app.py
+**Open in browser**:
+----->http://127.0.0.1:5000/
 
 # Student Management System - Stylesheet
 
