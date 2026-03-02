@@ -1,3 +1,30 @@
+# Student Management System
+
+A simple **Flask-based Student Management System** that allows users to register, log in, view, and edit student details.  
+This project demonstrates the use of **HTML templates, CSS styling, and Flask routes** to build a basic CRUD (Create, Read, Update, Delete) web application with authentication.
+
+---
+
+## 🚀 Features
+
+- **User Authentication**
+  - `register.html` → User registration form
+  - `login.html` → User login form with validation
+
+- **Student Management**
+  - `index.html` → Student registration form
+  - `view.html` → View all registered students
+  - `edit.html` → Edit existing student details
+
+- **Styling**
+  - Custom CSS (`static/style.css`) for forms, tables, and buttons
+  - Gradient headings, hover effects, and clean layout
+
+---
+
+## 📂 Project Structure
+
+
 # Student Management System - Stylesheet
 
 This repository contains a custom CSS stylesheet used to style the **Student Management System** project.  
