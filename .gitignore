@@ -1,0 +1,17 @@
+#Virtual environment
+env/
+venv/
+
+#Database
+students.db
+
+#Environment variables
+.env
+
+#Python cache
+__pycache__/
+*.pyc
+*.Pyo
+
+#VS Code
+.vscode/
