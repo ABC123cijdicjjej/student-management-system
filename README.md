@@ -27,3 +27,35 @@ The stylesheet defines the layout, colors, and formatting for forms, tables, and
 1. Clone the repository:
    ```bash
    git clone https://github.com/ABC123cijdicjjej/student-management-system.git
+# Student Management System - Edit Student Template
+
+This repository contains the **Edit Student** HTML template used in the Student Management System project.  
+The template provides a form for editing student details such as **Name, Age, and Course**.
+
+---
+
+## 🖼️ File Overview
+
+**File:** `templates/edit.html`  
+**Purpose:** Allows users to update student information stored in the system.
+
+### Code Snippet
+```html
+<!DOCTYPE html>
+<html>
+<body>
+    <h2><b>Edit Student</b></h2>
+    <form method="POST">
+        <label>Name</label><br>
+        <input type="text" name="name" value="{{ student[0]}}"><br>
+        <label>Age</label><br>
+        <input type="text" name="age" value="{{ student[1]}}"><br>
+        <label>Course</label><br>
+        <input type="text" name="course" value="{{ student[2]}}"><br>
+        <button type="submit">Update</button>
+    </form>
+    <br>
+    <a href="/view">Back</a>
+</body>
+</html>
+-----------------------------------------------------
